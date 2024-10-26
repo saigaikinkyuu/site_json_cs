@@ -25,35 +25,11 @@
 
     // パラメータに応じてJSONを切り替える
     let jsonData;
-    if (param === 'type1') {
-      jsonData = {
-        // type1用のJSONデータ
-        "name":"type1",
-        "body":"unknown"
-      };
-    } else if (param === 'type2') {
-      jsonData = {
-        // type2用のJSONデータ
-        "name":"type2",
-        "body":"unknown"
-      };
+    if (param === 'type1' || param === 'type2') {
+      window.location.href = "https://saigaikinkyuu.github.io/site_json_cs/" + "json/tester/param/cs/extension/test/" + param + "json";
     } else {
-      // デフォルトのJSONデータ
-      jsonData = {
-        "name":"Error",
-        "body":"unknown"
-      };
+      window.location.href = "https://saigaikinkyuu.github.io/site_json_cs/" + "json/error.json";
     }
-
-    // JSONを表示する関数
-    function displayJson(data) {
-      // 表示する要素のIDを指定
-      const displayElement = document.getElementById('jsonDisplay');
-      displayElement.textContent = JSON.stringify(data, null, 2); // 読みやすく整形して表示
-    }
-
-    // JSONを表示
-    displayJson(jsonData);
   </script>
 </body>
 </html>
