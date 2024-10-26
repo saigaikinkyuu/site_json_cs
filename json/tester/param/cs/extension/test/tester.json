@@ -1,5 +1,7 @@
 {
   "name" : "tester",
+  "status" : "before-release",
+  "status-sub" : "pre-bata_NowTest",
   "body1" : {
     "text" : "<h3 class='ttl_pach' id='tester_ttl_pach1'>【お知らせ/管理者専用】新機能追加のお知らせ</h3><p class='date_pach' id='tester_date_pach1'>'24 09月30日<span id='ver_pach' id='tester_ver_pach1'> ver.2.1.0</span></p><p class='body_pach' id='tester_body_pach1'>本日、テスター(管理者)ツールを追加しました。これにより、管理者より指名されました方に関しては、このテスター(管理者)権限を用いてツールを利用できるようになっています。このツールに関しては、一般公開しておりませんので共有なさいませんようお願い申し上げます。<br>※本メッセージは、テスター(管理者)権限者のみ表示されています。</p>",
     "dateFrom" : "0/0",
