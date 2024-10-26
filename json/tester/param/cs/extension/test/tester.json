@@ -1,0 +1,33 @@
+{
+  "name" : "tester",
+  "body1" : {
+    "text" : "<h3 class='ttl_pach' id='tester_ttl_pach1'>【お知らせ/管理者専用】新機能追加のお知らせ</h3><p class='date_pach' id='tester_date_pach1'>'24 09月30日<span id='ver_pach' id='tester_ver_pach1'> ver.2.1.0</span></p><p class='body_pach' id='tester_body_pach1'>本日、テスター(管理者)ツールを追加しました。これにより、管理者より指名されました方に関しては、このテスター(管理者)権限を用いてツールを利用できるようになっています。このツールに関しては、一般公開しておりませんので共有なさいませんようお願い申し上げます。<br>※本メッセージは、テスター(管理者)権限者のみ表示されています。</p>",
+    "dateFrom" : "0/0",
+    "dateTo" : "0/0"
+  },
+  "body2" : {
+    "text" : "<h3 class='ttl_pach' id='tester_ttl_pach2'>【お知らせ/管理者専用】不具合のお知らせ</h3><p class='date_pach' id='tester_date_pach2'>'24 10月01日/最終更新：3日<span id='ver_pach' id='tester_ver_pach2'></span></p><p class='body_pach' id='tester_body_pach2'>先日公開しました「管理者ツール」にてログインを行うと、一度でログインが完了しない不具合が発生しています。現在、原因の究明にあたっています。改善までしばらくお待ち下さい。なお、サービスに支障はありません。</p>",
+    "dateFrom" : "0/0",
+    "dateTo" : "0/0"
+  },
+  "body3" : {
+    "text" : "<h3 class='ttl_pach' id='tester_ttl_pach3'>【お知らせ/管理者専用】お知らせ表示の仕様が変更されました</h3><p class='date_pach' id='tester_date_pach3'>'24 10月03日<span id='ver_pach' id='tester_ver_pach3'> ver.2.3.0</span></p><p class='body_pach' id='tester_body_pach3'>ポップアップ「お知らせ」の仕様が変更されました！！<br>指定日表示が可能となり、デバイスごとに情報が刻まれるようになりました。そのため、「次回以降表示しない」の機能が追加されました。</p>",
+    "dateFrom" : "0/0",
+    "dateTo" : "0/0"
+  },
+  "body4" : {
+    "text" : "<h3 class='ttl_pach' id='tester_ttl_pach4'>【お知らせ/管理者専用】サービス再開のお知らせとお詫び</h3><p class='date_pach' id='tester_date_pach4'>'24 10月14日<span id='ver_pach' id='tester_ver_pach4'> ver.2.4.1/span></p><p class='body_pach' id='tester_body_pach4'>10月11日より休止しているサービスについては本日午前10時30分を持って再開しました。暗号化機能の不具合につきましては、現在も改善を行っておりますが、不具合の改善が見込めないことから暗号化の変更を行っております。ご迷惑をおかけしましたことをお詫び申し上げます。</p><p class='body_pach' style='text-align: right; margin-right: 10px;'>サービス運営委員一同</p>",
+    "dateFrom" : "0/0",
+    "dateTo" : "0/0"
+  },
+  "body5" : {
+    "text" : "<h3 class='ttl_pach' id='tester_ttl_pach5'>【お知らせ/管理者専用】テスト参加のお願い</h3><p class='date_pach' id='tester_date_pach5'>'24 10月17日<span id='ver_pach' id='tester_ver_pach5'> ver.2.5.0b</span></p><p class='body_pach' id='tester_body_pach5'>バージョン2.5.0にて公開を予定している「ライブカメラ」モードのテストに参加いただきたく思います。参加の方法は、現在の状態で「よく使うコンテンツ」の欄より「機能」内の「[CT]ライブカメラ（β版）」を利用したすることで、参加できます。なお、テスターの方は本ページ起動時より、行動デバックを運営にて収集しています。※行動デバックには、個人情報は含まれません</p>",
+    "dateFrom" : "0/0",
+    "dateTo" : "0/0"
+  },
+  "body6" : {
+    "text" : "<h3 class='ttl_pach' id='tester_ttl_pach6'>【お知らせ/管理者専用】サービス再開のお知らせとお詫び</h3><p class='date_pach' id='tester_date_pach6'>'24 10月20日<span id='ver_pach' id='tester_ver_pach6'> ver.2.4.2(2.5.0b)</span></p><p class='body_pach' id='tester_body_pach6'>サービス休止に伴い、ご迷惑をおかけいたしましたことを、お詫び申し上げます。全ての限定コンテンツについて、内部システムの変更を行った影響で、不具合が発生する可能性があります。お手数ですが、お気づきの点等不明な点がありましたら、ご連絡いただきますようお願い申し上げます。連絡方法といたしましては、「itoleo2vr※gmail.com」までご連絡下さい。連絡の際は「※」を「＠」に変更して下さい。</p><p class='body_pach' style='text-align: right; margin-right: 10px;'>サービス運営委員一同</p>",
+    "dateFrom" : "0/0",
+    "dateTo" : "0/0"
+  }
+}
