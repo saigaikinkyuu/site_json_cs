@@ -1,0 +1,10 @@
+{
+  "name" : "user",
+  "status" : "before-release",
+  "status-sub" : "pre-bata_NowTest",
+  "body-schedule-01" : {
+    "text" : "Error",
+    "dateFrom" : "null/null",
+    "dateTo" : "null/null"
+  }
+}
