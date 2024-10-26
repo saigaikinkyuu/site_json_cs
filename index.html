@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Json</title>
+</head>
+<body>
+  <script>
+    // URLパラメータを取得する関数
+    function getParameterByName(name, url = window.location.href) {
+      name = name.replace(/[\[\]]/g, '\\$&');
+      var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+          results = regex.exec(url);
+      if (!results) return null;
+      if (!results[2]) return '';
+      return decodeURIComponent(results[2].replace(/\+/g, ' '));
+    }
+
+    // パラメータを取得
+    const param = getParameterByName('type');
+
+    // パラメータに応じてJSONを切り替える
+    let jsonData;
+    if (param === 'type1') {
+      jsonData = {
+        // type1用のJSONデータ
+        "name":"type1",
+        "body":"unknown"
+      };
+    } else if (param === 'type2') {
+      jsonData = {
+        // type2用のJSONデータ
+        "name":"type2",
+        "body":"unknown"
+      };
+    } else {
+      // デフォルトのJSONデータ
+      jsonData = {
+        "name":"Error",
+        "body":"unknown"
+      };
+    }
+
+    // JSONを表示する関数
+    function displayJson(data) {
+      // 表示する要素のIDを指定
+      const displayElement = document.getElementById('jsonDisplay');
+      displayElement.textContent = JSON.stringify(data, null, 2); // 読みやすく整形して表示
+    }
+
+    // JSONを表示
+    displayJson(jsonData);
+  </script>
+
+  <div id="jsonDisplay"></div>
+</body>
+</html>
